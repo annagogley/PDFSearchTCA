@@ -24,6 +24,9 @@ struct PDFSearch: Reducer {
             case .searchTextChanged(let newText):
                 state.isLoading = true
                 state.textForSearch = newText
+                guard !newText.isEmpty else {
+                    return .none
+                }
                 state.isSheetPresented = true
                 return .none
             case .stopSearch:
@@ -33,14 +36,16 @@ struct PDFSearch: Reducer {
                 let pdf = state.pdf!
                 let query = state.textForSearch
                 guard !query.isEmpty else {
-                    return .send(.stopSearch)
+//                    return .send(.stopSearch)
+                    return .none
                 }
                 state.searchResult = []
                 
                 let searchResults = pdf.findString(query, withOptions: .caseInsensitive)
                 guard !searchResults.isEmpty else {
                     print("search results are empty")
-                    return .send(.stopSearch)
+//                    return .send(.stopSearch)
+                    return .none
                 }
                 print(searchResults)
                 for result in searchResults {
@@ -54,7 +59,7 @@ struct PDFSearch: Reducer {
 //                return .run { send in
 //                    await send(.stopSearch)
 //                }
-                return .none
+                return .send(.stopSearch)
             case .setSheet(isPresented: let isPresented):
                 state.isSheetPresented = isPresented
                 return .none

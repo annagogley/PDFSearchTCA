@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37C1BDE72ADE858F00D6828B /* Refreshable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C1BDE62ADE858F00D6828B /* Refreshable.swift */; };
 		37E48F5B2ADAADF100802741 /* AviaBriefingTCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E48F5A2ADAADF100802741 /* AviaBriefingTCAApp.swift */; };
 		37E48F5D2ADAADF100802741 /* PDFSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E48F5C2ADAADF100802741 /* PDFSearchView.swift */; };
 		37E48F5F2ADAADF300802741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E48F5E2ADAADF300802741 /* Assets.xcassets */; };
@@ -19,7 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		37C1BDE62ADE858F00D6828B /* Refreshable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Refreshable.swift; sourceTree = "<group>"; };
 		37E48F572ADAADF100802741 /* AviaBriefingTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AviaBriefingTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E48F5A2ADAADF100802741 /* AviaBriefingTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviaBriefingTCAApp.swift; sourceTree = "<group>"; };
 		37E48F5C2ADAADF100802741 /* PDFSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFSearchView.swift; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 			children = (
 				37E48F5A2ADAADF100802741 /* AviaBriefingTCAApp.swift */,
 				37E48F5C2ADAADF100802741 /* PDFSearchView.swift */,
-				37C1BDE62ADE858F00D6828B /* Refreshable.swift */,
 				37E48F6F2ADABF9B00802741 /* PDFSearch.swift */,
 				37E48F6D2ADABCB000802741 /* PDFKitRepresentView.swift */,
 				37E48F6B2ADABC6F00802741 /* A320-Part3.pdf */,
@@ -158,7 +155,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37C1BDE72ADE858F00D6828B /* Refreshable.swift in Sources */,
 				37E48F5D2ADAADF100802741 /* PDFSearchView.swift in Sources */,
 				37E48F5B2ADAADF100802741 /* AviaBriefingTCAApp.swift in Sources */,
 				37E48F702ADABF9B00802741 /* PDFSearch.swift in Sources */,

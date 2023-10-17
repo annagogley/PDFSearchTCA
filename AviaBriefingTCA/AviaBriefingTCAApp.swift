@@ -16,11 +16,6 @@ struct AviaBriefingTCAApp: App {
                 store: Store(initialState: PDFSearch.State(), reducer: {
                     PDFSearch()._printChanges()
                 }))
-//            SearchView(
-//              store: Store(initialState: Search.State()) {
-//                  Search()._printChanges()
-//              }
-//            )
         }
     }
 }
