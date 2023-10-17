@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4C8D06CC-E637-4605-B682-9019CF993590"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "755DE951-8AF7-4F10-939D-2FF28CF8D8D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AviaBriefingTCA/PDFSearchView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB8582C2-8132-4555-9BEE-96E81D2A73A2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AviaBriefingTCA/PDFKitRepresentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "updateUIView(_:context:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68B8F314-3496-42DB-BE77-3DC929DDE153"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AviaBriefingTCA/PDFSearch.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "68B8F314-3496-42DB-BE77-3DC929DDE153 - 949375146e91aece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout AviaBriefingTCA.PDFSearch.State, AviaBriefingTCA.PDFSearch.Action) -&gt; ComposableArchitecture.Effect&lt;AviaBriefingTCA.PDFSearch.Action&gt; in AviaBriefingTCA.PDFSearch.body.getter : some"
+                  moduleName = "AviaBriefingTCA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annagogley/XcodeProjects/AviaBriefingTCA/AviaBriefingTCA/PDFSearch.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "838">
+               </Location>
+               <Location
+                  uuid = "68B8F314-3496-42DB-BE77-3DC929DDE153 - 949375146e91aece"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout AviaBriefingTCA.PDFSearch.State, AviaBriefingTCA.PDFSearch.Action) -&gt; ComposableArchitecture.Effect&lt;AviaBriefingTCA.PDFSearch.Action&gt; in AviaBriefingTCA.PDFSearch.body.getter : some"
+                  moduleName = "AviaBriefingTCA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/annagogley/XcodeProjects/AviaBriefingTCA/AviaBriefingTCA/PDFSearch.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "759">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
